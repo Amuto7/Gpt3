@@ -1,0 +1,148 @@
+.Wui__header {
+  display: flex;
+}
+.Wui__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 5rem;
+}
+
+.Wui__header-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+.Wui__header-content p {
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+
+  color: var(--color-text);
+  margin-top: 1.5rem;
+}
+
+.Wui__header-content__input {
+  width: 100%;
+  margin: 2rem 0 1rem;
+
+  display: flex;
+}
+
+.Wui__header-content__input input {
+  flex: 2;
+  border-radius: 5px 0;
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  background: var(--color-footer);
+  border: 2px solid var(--color-footer);
+  color: #fff;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 1rem;
+  outline: none;
+}
+
+.Wui__header-content__input button {
+  flex: 0.6;
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  background: #ff4820;
+  border-radius: 0 5px 5px 0;
+  background: #fc4820;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  padding: 0 1rem;
+  border: none;
+}
+.Wui__heeader-content__people {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 2rem;
+}
+.Wui__heeader-content__people img {
+  height: 38px;
+  width: 181.7861328125px;
+  border-radius: 0px;
+}
+
+.Wui__heeader-content__people p {
+  margin: 0 0 0 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Wui__header-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Wui__header-img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .Wui__header {
+    flex-direction: column;
+  }
+  .Wui__header-content {
+    margin: 0 0 3rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Wui__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .Wui__header p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .Wui__heeader-content__people {
+    flex-direction: column;
+  }
+  .Wui__heeader-content__people p {
+    margin: 0;
+  }
+  .Wui__header-content__input button,
+  .Wui__header-content__input input {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .Wui__header h1 {
+    font-size: 36px;
+    line-height: 48x;
+  }
+  .Wui__header p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .Wui__header-content__input button,
+  .Wui__header-content__input input {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

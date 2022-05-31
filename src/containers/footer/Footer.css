@@ -1,0 +1,140 @@
+.wui__footer{
+    background-color: var(--color-footer);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.wui__footer-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 3rem;
+
+}
+.wui__footer-heading h1{
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 800;
+font-size: 62px;
+line-height: 75px;
+text-align: center;
+letter-spacing: -0.04em;
+}
+
+.wui__footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    text-align: center;
+
+}
+.wui__footer-btn button{   
+     border: 1px solid #FFFFFF;
+     letter-spacing: 2px;
+
+background-color: transparent;
+outline: none;
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+padding: 0.5rem 1rem;
+cursor: pointer;
+}
+
+.wui__footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    justify-content: space-between;    align-items: flex-start;        flex-wrap: wrap;
+
+
+}
+.wui__footer-links-logo{
+    display: flex;
+    flex-direction: column;
+}
+.wui__footer-links-logo img{
+    width: 118px;
+    height: 30px;
+}
+.wui__footer-links-logo p{
+font-family: 'Gilroy-Medium';
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+margin-top: 1rem;
+}
+
+.wui__footer-links_div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    justify-content: flex-start;  
+          min-width: 100px;
+
+}
+.wui__footer-links_div h4{
+font-family: 'Gilroy-Bold';
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+margin-bottom: 1rem;
+
+} 
+.wui__footer-links_div p{
+font-family: 'Gilroy-Medium';
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+margin: 0.5rem 0;
+
+
+
+}
+
+.wui__footer-copyRe{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 0;
+}
+.wui__footer-copyRe p{
+font-family: 'Gilroy-Medium';
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+
+
+}
+
+@media screen  and (max-width : 850px){
+    .wui__footer-heading h1{
+        font-size: 44px;
+        line-height: 50px;
+        text-align: start;
+    }
+    .wui__footer-links {
+        gap: 2rem;
+        margin-left: 0;
+    }
+}
+@media screen  and (max-width : 550px){
+    .wui__footer-btn button{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .wui__footer-heading h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .wui__footer-links_div {
+        margin: 0;
+    }
+
+}

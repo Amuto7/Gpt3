@@ -1,0 +1,60 @@
+.Wui__features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.Wui__features-heading{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+    margin-right: 5rem;
+
+}
+
+.Wui__features-heading h1{
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 45px;
+}
+
+.Wui__features-heading p{
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+color: var(--color-subtext);
+margin-top: 2rem;
+}
+
+.Wui__features-container{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width:990px) {
+    .Wui__features{
+        flex-direction: column;
+    }
+
+    .Wui__features-heading {
+        margin:  0 0 2rem 0;
+    }
+}
+@media screen and (max-width:550px) {
+    .Wui__features-heading h1{
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
